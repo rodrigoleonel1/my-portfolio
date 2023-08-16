@@ -14,7 +14,7 @@ export const ALL_PROJECTS = [
     ],
     demo: "https://sneakers-ecommerce-git-main-rodrigoleonel1.vercel.app",
     repo: "https://github.com/rodrigoleonel1/sneakers-ecommerce",
-    img: "./assets/sneakers.jpg",
+    img: "./sneakers.jpg",
     alt: "Sneakers ecommerce preview",
   },
   {
@@ -24,7 +24,7 @@ export const ALL_PROJECTS = [
     tools: ["Javascript", "Bootstrap", "CSS 3", "Toastify JS", "Sweetalert2"],
     demo: "https://rodrigoleonel1.github.io/js-pokedex/",
     repo: "https://github.com/rodrigoleonel1/js-pokedex",
-    img: "./assets/pokedex.jpg",
+    img: "./pokedex.jpg",
     alt: "Pokedex web preview",
   },
   {
@@ -43,7 +43,7 @@ export const ALL_PROJECTS = [
     ],
     demo: false,
     repo: "https://github.com/rodrigoleonel1/API-Ecommerce",
-    img: "./assets/ecommerce.jpg",
+    img: "./ecommerce.jpg",
     alt: "Fullstack ecommer web preview",
   },
   {
@@ -52,7 +52,7 @@ export const ALL_PROJECTS = [
     tools: ["React JS", "CSS 3", "Canvas confetti"],
     demo: "https://react-tic-tac-toe-gray.vercel.app/",
     repo: "https://github.com/rodrigoleonel1/react-tic-tac-toe",
-    img: "./assets/tictactoe.jpg",
+    img: "./tictactoe.jpg",
     alt: "Tic-tac-toe web preview",
   },
   {
@@ -62,7 +62,7 @@ export const ALL_PROJECTS = [
     tools: ["HTML 5", "CSS 3", "Bootstrap", "Sass"],
     demo: "https://rodrigoleonel1.github.io/events-hall-page/index.html",
     repo: "https://github.com/rodrigoleonel1/events-hall-page/tree/main",
-    img: "./assets/radiante.jpg",
+    img: "./radiante.jpg",
     alt: "Events hall web preview",
   },
 ];
@@ -70,51 +70,51 @@ export const ALL_PROJECTS = [
 export const SKILLS = [
   {
     name: "Javascript",
-    src: "./assets/javascript.svg",
+    src: "./javascript.svg",
   },
   {
     name: "React",
-    src: "./assets/react.svg",
+    src: "./react.svg",
   },
   {
     name: "TailwindCSS",
-    src: "./assets/tailwindcss.svg",
+    src: "./tailwindcss.svg",
   },
   {
     name: "Bootstrap",
-    src: "./assets/bootstrap.svg",
+    src: "./bootstrap.svg",
   },
   {
     name: "Sass",
-    src: "./assets/sass.svg",
+    src: "./sass.svg",
   },
   {
     name: "Node.js",
-    src: "./assets/nodejs.svg",
+    src: "./nodejs.svg",
   },
   {
     name: "Express.js",
-    src: "./assets/express.svg",
+    src: "./express.svg",
     invert: true,
   },
   {
     name: "Socket.IO",
-    src: "./assets/socketio.svg",
+    src: "./socketio.svg",
   },
   {
     name: "MongoDB",
-    src: "./assets/mongodb.svg",
+    src: "./mongodb.svg",
   },
   {
     name: "Firebase",
-    src: "./assets/firebase.svg",
+    src: "./firebase.svg",
   },
   {
     name: "Git",
-    src: "./assets/git.svg",
+    src: "./git.svg",
   },
   {
     name: "NPM",
-    src: "./assets/npm.svg",
+    src: "./npm.svg",
   },
 ];
