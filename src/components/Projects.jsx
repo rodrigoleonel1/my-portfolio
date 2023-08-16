@@ -26,8 +26,7 @@ export const Projects = ({ home, quantity }) => {
 
       {home ? (
         <Link
-          reloadDocument
-          to={"/projects"}
+          to="/projects"
           className="bg-[#161617] flex justify-center place-items-center gap-1 px-6 py-2 mb-6 rounded-lg shadow-md mx-auto md:mt-4 md:mb-8"
         >
           More projects
@@ -35,8 +34,7 @@ export const Projects = ({ home, quantity }) => {
         </Link>
       ) : (
         <Link
-          reloadDocument
-          to={"/"}
+          to="/"
           className="bg-[#161617] flex justify-center place-items-center gap-1 px-6 py-2 mb-6 rounded-lg shadow-md mx-auto md:mt-4 md:mb-8"
         >
           Return home
