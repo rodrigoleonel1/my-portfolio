@@ -11,7 +11,7 @@ function App() {
         <main className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0 mt-10">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects" element={<Projects home={false} quantity={"5"}/>} />
           </Routes>
         </main>
         <Footer />
