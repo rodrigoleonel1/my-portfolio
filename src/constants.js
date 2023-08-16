@@ -14,7 +14,7 @@ export const ALL_PROJECTS = [
     ],
     demo: "https://sneakers-ecommerce-git-main-rodrigoleonel1.vercel.app",
     repo: "https://github.com/rodrigoleonel1/sneakers-ecommerce",
-    img: "../src/assets/sneakers.jpg",
+    img: "./assets/sneakers.jpg",
     alt: "Sneakers ecommerce preview",
   },
   {
@@ -24,7 +24,7 @@ export const ALL_PROJECTS = [
     tools: ["Javascript", "Bootstrap", "CSS 3", "Toastify JS", "Sweetalert2"],
     demo: "https://rodrigoleonel1.github.io/js-pokedex/",
     repo: "https://github.com/rodrigoleonel1/js-pokedex",
-    img: "../src/assets/pokedex.jpg",
+    img: "./assets/pokedex.jpg",
     alt: "Pokedex web preview",
   },
   {
@@ -43,7 +43,7 @@ export const ALL_PROJECTS = [
     ],
     demo: false,
     repo: "https://github.com/rodrigoleonel1/API-Ecommerce",
-    img: "../src/assets/ecommerce.jpg",
+    img: "./assets/ecommerce.jpg",
     alt: "Fullstack ecommer web preview",
   },
   {
@@ -52,7 +52,7 @@ export const ALL_PROJECTS = [
     tools: ["React JS", "CSS 3", "Canvas confetti"],
     demo: "https://react-tic-tac-toe-gray.vercel.app/",
     repo: "https://github.com/rodrigoleonel1/react-tic-tac-toe",
-    img: "../src/assets/tictactoe.jpg",
+    img: "./assets/tictactoe.jpg",
     alt: "Tic-tac-toe web preview",
   },
   {
@@ -62,7 +62,7 @@ export const ALL_PROJECTS = [
     tools: ["HTML 5", "CSS 3", "Bootstrap", "Sass"],
     demo: "https://rodrigoleonel1.github.io/events-hall-page/index.html",
     repo: "https://github.com/rodrigoleonel1/events-hall-page/tree/main",
-    img: "../src/assets/radiante.jpg",
+    img: "./assets/radiante.jpg",
     alt: "Events hall web preview",
   },
 ];
@@ -70,51 +70,51 @@ export const ALL_PROJECTS = [
 export const SKILLS = [
   {
     name: "Javascript",
-    src: "../src/assets/javascript.svg",
+    src: "./assets/javascript.svg",
   },
   {
     name: "React",
-    src: "../src/assets/react.svg",
+    src: "./assets/react.svg",
   },
   {
     name: "TailwindCSS",
-    src: "../src/assets/tailwindcss.svg",
+    src: "./assets/tailwindcss.svg",
   },
   {
     name: "Bootstrap",
-    src: "../src/assets/bootstrap.svg",
+    src: "./assets/bootstrap.svg",
   },
   {
     name: "Sass",
-    src: "../src/assets/sass.svg",
+    src: "./assets/sass.svg",
   },
   {
     name: "Node.js",
-    src: "../src/assets/nodejs.svg",
+    src: "./assets/nodejs.svg",
   },
   {
     name: "Express.js",
-    src: "../src/assets/express.svg",
+    src: "./assets/express.svg",
     invert: true,
   },
   {
     name: "Socket.IO",
-    src: "../src/assets/socketio.svg",
+    src: "./assets/socketio.svg",
   },
   {
     name: "MongoDB",
-    src: "../src/assets/mongodb.svg",
+    src: "./assets/mongodb.svg",
   },
   {
     name: "Firebase",
-    src: "../src/assets/firebase.svg",
+    src: "./assets/firebase.svg",
   },
   {
     name: "Git",
-    src: "../src/assets/git.svg",
+    src: "./assets/git.svg",
   },
   {
     name: "NPM",
-    src: "../src/assets/npm.svg",
+    src: "./assets/npm.svg",
   },
 ];
