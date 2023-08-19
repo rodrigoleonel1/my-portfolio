@@ -27,7 +27,7 @@ export const Projects = ({ home, quantity }) => {
       {home ? (
         <Link
           to="/projects"
-          className="bg-[#161617] flex justify-center place-items-center gap-1 px-6 py-2 mb-6 rounded-lg shadow-md mx-auto md:mt-4 md:mb-8"
+          className="bg-[#161617] flex justify-center place-items-center gap-1 px-6 py-2 mb-6 rounded-lg shadow-md mx-auto md:mt-4 md:mb-8 hover:border-white transition border border-[#161617]"
         >
           More projects
           <IoArrowForward />
@@ -35,9 +35,9 @@ export const Projects = ({ home, quantity }) => {
       ) : (
         <Link
           to="/"
-          className="bg-[#161617] flex justify-center place-items-center gap-1 px-6 py-2 mb-6 rounded-lg shadow-md mx-auto md:mt-4 md:mb-8"
+          className="bg-[#161617] flex justify-center place-items-center gap-1 px-6 py-2 mb-6 rounded-lg shadow-md mx-auto md:mt-4 md:mb-8 hover:border-white transition border border-[#161617]"
         >
-          Return home
+          Return
           <IoArrowForward />
         </Link>
       )}

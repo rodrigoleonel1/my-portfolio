@@ -6,7 +6,7 @@ export const Skills = () => {
   return (
     <section className="flex flex-col gap-4 px-6 mb-6 m-auto md:mb-8">
       <Title name="Skills" id="Skills" />
-      <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="grid w-full grid-cols-2 gap-4 sm:grid-cols-3 xl:grid-cols-4">
         {SKILLS.map((skill) => (
           <Pill key={skill.name} skill={skill} />
         ))}

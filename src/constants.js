@@ -30,7 +30,7 @@ export const ALL_PROJECTS = [
   {
     title: "Ecommerce Fullstack",
     description:
-      "An Ecommerce with API to manage users, API to manage users, API to manage cart, API for authentication, MongoDB for data persistence, MVC architecture, error handling, real-time chat and more.",
+      "An Ecommerce with API to manage products, API to manage users, API to manage cart, API for authentication, MongoDB for data persistence, MVC architecture, error handling, real-time chat and more.",
     tools: [
       "Node.js",
       "Express",
@@ -69,16 +69,16 @@ export const ALL_PROJECTS = [
 
 export const SKILLS = [
   {
-    name: "Javascript",
-    src: "./javascript.svg",
-  },
-  {
     name: "React",
     src: "./react.svg",
   },
   {
     name: "TailwindCSS",
     src: "./tailwindcss.svg",
+  },
+  {
+    name: "Javascript",
+    src: "./javascript.svg",
   },
   {
     name: "Bootstrap",
