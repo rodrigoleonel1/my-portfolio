@@ -8,7 +8,7 @@ export const Projects = ({ home, quantity }) => {
   const PROJECTS = ALL_PROJECTS.slice(0, quantity);
 
   return (
-    <section className="m-auto flex flex-col gap-4 text-white px-6">
+    <section className="m-auto flex flex-col gap-4 text-white px-4">
       <Title name="My projects" id="Projects" />
       <div className="mx-auto grid grid-cols-1 gap-4 md:ml-[20%] xl:ml-[24%]">
         {PROJECTS.map((project) => (

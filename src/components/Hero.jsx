@@ -2,7 +2,7 @@ import { IconsBox } from "./IconsBox";
 
 export const Hero = () => {
   return (
-    <section className="flex felx-col flex-col-reverse gap-4 justify-between items-center text-white px-6 mb-6 md:mb-8 md:flex-row xl:gap-10">
+    <section className="flex felx-col flex-col-reverse gap-4 justify-between items-center text-white px-4 mb-6 md:mb-8 md:flex-row xl:gap-10">
       <div className="flex flex-col items-center text-center gap-2 md:text-start md:items-start md:w-[450px] xl:w-auto">
         <h1 className="text-4xl font-bold">Hi, i&apos;m Rodrigo Alarcon 👋</h1>
         <h2 className="text-xl">Full-Stack web developer 👨‍💻</h2>

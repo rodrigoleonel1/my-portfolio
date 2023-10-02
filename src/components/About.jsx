@@ -2,7 +2,7 @@ import { Title } from "./Title";
 
 export const About = () => {
   return (
-    <section className="flex flex-col gap-4 px-6 mb-6 m-auto md:mb-8">
+    <section className="flex flex-col gap-4 px-4 mb-6 m-auto md:mb-8">
       <Title name="About me" id="About"/>
       <p className="text-zinc-400">
         I was a student at the university, pursuing a degree in Psychology with
